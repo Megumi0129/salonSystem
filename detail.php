@@ -35,6 +35,7 @@ if(empty($_GET['id'])){
   $memo = array_column($rows, 'memo');
   $uptime = array_column($rows, 'birth');
 
+
   //来店履歴情報(下部)取得
   //データベースへ接続
   $dsn = "mysql:dbname=inf;host=localhost;charset=utf8";
